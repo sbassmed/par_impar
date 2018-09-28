@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h1>Hola</h1>
+  <%50.times do |numero|%>
+  <%numero=numero+1%>
+    <%if numero%2 == 0 %>
+     <h1><%="#{numero}"%> Soy Par!</h1>
+    <%else%>
+     <h1><%="#{numero}"%> Soy Impar!</h1>
+    <%end%>
+  <%end%>
+</body>
+</html>
